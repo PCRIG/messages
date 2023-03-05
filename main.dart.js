@@ -10778,9 +10778,11 @@ _.c=0},
 aDt(){return new A.xL(new A.a21(),A.y(t.K,t.Qu))},
 Mx:function Mx(a,b){this.a=a
 this.b=b},
-yF:function yF(a,b,c){this.e=a
-this.cx=b
-this.a=c},
+yF:function yF(a,b,c,d){var _=this
+_.e=a
+_.ch=b
+_.cx=c
+_.a=d},
 a21:function a21(){},
 a24:function a24(){},
 CZ:function CZ(a){var _=this
@@ -38765,7 +38767,7 @@ aE(){this.bb()
 this.Qb()},
 Qb(){A.a_Z().aH(0,new A.afs(this),t.P)},
 I(a,b){var s=A.amt(null,B.mC)
-return new A.yF(this.d?B.e3:B.ex,s,null)}}
+return new A.yF(this.d?B.e3:B.ex,"Chat App",s,null)}}
 A.afs.prototype={
 $1(a){var s
 if(a!=null){s=this.a
@@ -43642,13 +43644,14 @@ if(p)n.a.toString
 o=n.a.cx
 s=b==null?B.eR:b
 return new A.As(new A.vV(o,s,B.a6,B.F,m,m),m)},
-YK(a){var s,r=this,q=null,p=r.a,o=p.cx
-o=o.at
-s=o
-p=p.e
-o=r.ga3E()
-r.a.toString
-return new A.BL(q,q,q,new A.aeU(),q,q,q,q,p,B.Gq,q,q,B.DY,r.ga3I(),"",q,B.Mx,s,q,o,q,q,B.nI,!1,!1,!1,!1,r.ga3l(),!0,q,q,q,!1,new A.lL(r,t.bT))},
+YK(a){var s,r,q=this,p=null,o=q.a,n=o.cx
+n=n.at
+s=n
+n=o.e
+o=o.ch
+r=q.ga3E()
+q.a.toString
+return new A.BL(p,p,p,new A.aeU(),p,p,p,p,n,B.Gq,p,p,B.DY,q.ga3I(),o,p,B.Mx,s,p,r,p,p,B.nI,!1,!1,!1,!1,q.ga3l(),!0,p,p,p,!1,new A.lL(q,t.bT))},
 I(a,b){var s=null,r=A.Id(!1,!1,this.YK(b),s,s,s,s,!0,s,s,new A.aeV(),s,s)
 this.a.toString
 return new A.Av(B.xD,new A.nL(A.a(this.d,"_heroController"),r,s),s)}}
